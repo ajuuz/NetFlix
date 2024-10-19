@@ -1,0 +1,30 @@
+.moveDown{
+    animation: movedown 0.5s forwards;
+}
+
+@keyframes movedown{
+    0%{
+        transform: translate(0,0);
+    }
+    100%{
+        transform: translate(0,30px);
+    }
+}
+
+.moveUp{
+    animation: moveUp 0.5s forwards;
+
+}
+@keyframes moveUp{
+    0%{
+        transform: translate(0,0);
+    }
+    100%{
+        transform: translate(0,30px);
+    }
+
+}
+.other{
+    aspect-ratio: 16/9;
+     
+}

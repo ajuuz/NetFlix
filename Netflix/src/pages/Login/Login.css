@@ -1,0 +1,129 @@
+.login {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(#0000008f 0%, #00000088 100%),
+    url(../../assets/background_banner.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.login-logo {
+  position: relative;
+  width: 130px;
+  top: 80px;
+  left: 50px;
+}
+
+.login-form {
+  text-align: center;
+  position: relative;
+  top: 30%;
+}
+.login-form h1 {
+  color: red;
+  font-weight: bolder;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.login-form input {
+  padding: 10px;
+  width: 250px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  color: black;
+}
+.login-form button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: 1px solid;
+  border-radius: 10px;
+  transition: all 0.2s;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.login-form button:hover {
+  background-color: red;
+  color: rgb(255, 255, 255);
+  border: 1px solid red;
+}
+
+.for-switch p {
+  font-size: 0.8rem;
+}
+
+.for-switch span {
+  transition: all 0.3s;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.for-switch span:hover {
+  color: rgb(0, 106, 255);
+}
+
+.login-rounded-div {
+  bottom: -200px;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+}
+
+.div1 {
+  background-color: rgb(255, 0, 0);
+  box-shadow: inset 0px -280px 10px rgba(0, 0, 0, 0.5);
+}
+.div2 {
+  background-color: rgb(7, 7, 66);
+  box-shadow: inset 0px -240px 90px rgba(0, 0, 0, 0.5);
+}
+
+/* Modal styles */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  z-index: 1000; /* Sit on top */
+}
+
+.modal-content {
+  background-color: #292222;
+  border: 5px solid red;
+  margin: 15% auto; /* Vertically centered */
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 500px; /* Modal max width */
+  text-align: center;
+}
+
+.close-btn {
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal h2 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.modal p {
+  font-size: 16px;
+  color: #ff0000;
+}

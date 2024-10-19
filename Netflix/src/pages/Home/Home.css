@@ -1,0 +1,34 @@
+.home{
+    width: 100%;
+    background-position: center top;
+    object-fit: contain;
+    /* background-size: auto; */
+    background-repeat: no-repeat;
+    aspect-ratio: 16/9;
+    position: relative;
+    transition: all 0.5s;
+}
+.home::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    aspect-ratio: 16/9;
+    pointer-events: none; 
+    background: linear-gradient(
+        to top, 
+        rgba(23, 23, 23,1) 0%,  
+        rgba(23, 23, 23,0.9) 10%, 
+        rgba(23, 23, 23, 0.8) 20%, 
+        rgba(23, 23, 23, 0.7) 30%, 
+        rgba(23, 23, 23, 0.7) 40%,
+        rgba(23, 23, 23, 0.6) 50%,
+        rgba(23, 23, 23, 0.5) 60%,
+        rgba(23, 23, 23, 0.4) 70%,
+        rgba(23, 23, 23, 0.2) 80%,
+        rgba(23, 23, 23, 0.1) 90%,
+         rgba(23, 23, 23, 0.1) 100% 
+    )
+}
+

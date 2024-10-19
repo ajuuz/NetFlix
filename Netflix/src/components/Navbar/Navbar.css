@@ -1,0 +1,48 @@
+.outer-container{
+    z-index: 5;
+    transition: all 0.3s;
+}
+
+.menu{
+    transition: all 0.7s;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.menu li{
+    color:rgb(216, 212, 212);
+    font-size: 0.8rem;
+    padding: 5px 20px 5px 5px;
+}
+
+
+
+.menu span{
+    color:rgb(255, 255, 255);
+    font-size: 0.8rem;
+    
+}
+
+.animatedown{
+    animation: movedown 0.7s forwards;
+}
+.animateup{
+    animation: moveup 0.7s forwards;
+}
+@keyframes movedown{
+    0% { transform: translate(0, -40px); }
+    100% { transform: translate(0, 30px); }  
+}
+@keyframes moveup{
+    0% { transform: translate(0, 30px); }
+    100% { transform: translate(0, -10px); }  
+}
+
+.search-movie{
+    outline: none;
+    width: 120px;
+}
+
+.search-movie::placeholder{
+    font-size: 15px;
+    color: rgb(163, 161, 161);
+}
